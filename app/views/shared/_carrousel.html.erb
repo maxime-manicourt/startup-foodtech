@@ -1,1 +1,38 @@
-<p>Je suis un carrousel</p>
+<div class="slider__container">
+    <ul class ="slider__list">
+        <li class="slide__item" style="background-image: url(<%= asset_path 'img-1.jpg' %>)">
+            <div class="slider__desc">
+                <h1>Manger...</h1>
+            </div>
+        </li>
+        <li class="slide__item" style="display: none; background-image: url(<%= asset_path 'img-2.jpg' %>)">
+            <div class="slider__desc">
+                <h1>Ou être mangé ?</h1>
+            </div>
+        </li>
+        <li class="slide__item" style="display: none">
+            <%= image_tag("img-3.jpg") %>
+            <div class="slider__desc">
+                <h1>Perdu !</h1>
+            </div>
+        </li>
+    </ul>
+    <div class="slider__dots">
+        <a href="#" class="slider__dots-choice is-active"></a>
+        <a href="#" class="slider__dots-choice"></a>
+        <a href="#" class="slider__dots-choice"></a>
+    </div>
+    <div class="slider__overlay"></div>
+    <div class="slider__arrows">
+        <div class="slider__arrows__next">
+            <a href="#" class="link__next">
+                <i class="fas fa-chevron-right arrow-next"></i>
+            </a>
+        </div>
+        <div class="slider__arrows__previous">
+            <a href="#" class="link__previous">
+                <i class="fas fa-chevron-left arrow-previous"></i>
+            </a>
+        </div>
+    </div>
+</div>

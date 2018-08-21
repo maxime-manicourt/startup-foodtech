@@ -1,0 +1,47 @@
+@import "../variables/*";
+
+.main-nav {
+    display: flex;
+    height: 90px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 50px;
+    background-color: $red;
+}
+
+.main-nav__item {
+    display: flex;
+    align-items: center;
+    width: 110px;
+    overflow: hidden;
+}
+
+.main-nav__logo-link {
+    font-family: $header-font;
+    font-size: 26px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: white
+}
+
+.main-nav__logo-link:hover {
+    color: white;
+    font-size: 27px
+}
+
+.ext-link {
+    color: white;
+    font-size: 16px
+}
+
+.ext-link:hover {
+    color: $grey;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0 1px;
+    font-size: large
+}
