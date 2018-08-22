@@ -63,6 +63,10 @@ ul.tabs li{
     text-align: center
 }
 
+ul.tabs li:hover{
+    color: $dark-red
+}
+
 ul.tabs li.current{
 	background: $red;
     color: white;
