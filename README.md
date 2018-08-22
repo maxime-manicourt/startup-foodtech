@@ -1,24 +1,10 @@
-# README
+## L'application 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Voici notre application : https://thplille-startup-foodtech.herokuapp.com/ 
 
-Things you may want to cover:
+Réalisée par Manon et Maxime, team de Lille.
 
-* Ruby version
 
-* System dependencies
+## Pitch
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Nous avons disrupté le marché du cannibalisme en France, une grande première. Nous comptons sur ce projet pour amasser plein de frics.
