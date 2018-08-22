@@ -4,6 +4,9 @@
     background-size: cover;
     max-height: 600px !important;
     position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 0
     }
 
 .slider__list {
@@ -118,4 +121,14 @@
 .slide__item.current {
     display: block;
     height: 600px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.slide__item {
+    list-style: none;
+    padding: 0
 }
